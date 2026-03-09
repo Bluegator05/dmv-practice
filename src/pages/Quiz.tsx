@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { questions } from '../data/questions';
 import { useProgressStore } from '../store/progress';
+import { supabase } from '../lib/supabase';
 import { CheckCircle2, XCircle, ArrowRight, Home, RefreshCw } from 'lucide-react';
 import './Quiz.css';
 
@@ -43,16 +44,33 @@ const Quiz: React.FC = () => {
         }
     };
 
-    const handleNext = () => {
+    const handleNext = async () => {
         if (currentIndex < quizQuestions.length - 1) {
             setCurrentIndex(c => c + 1);
             setSelectedAnswer(null);
             setIsAnswered(false);
         } else {
             // Finish Quiz
+            setQuizFinished(true); // show generic loading wrapper for final submit if needed, or straight to results
             const passed = score >= 21; // 70% of 30
             recordScore(score, passed);
-            setQuizFinished(true);
+
+            // Push to Supabase
+            const { data: { session } } = await supabase.auth.getSession();
+            if (session) {
+                const weakCats = Object.entries(useProgressStore.getState().weakCategories)
+                    .filter(([_, count]) => count > 0)
+                    .map(([cat, _]) => cat);
+
+                await supabase.from('user_progress').insert({
+                    user_id: session.user.id,
+                    type: 'practice_test',
+                    score: score,
+                    total: 30,
+                    passed: passed,
+                    weak_categories: weakCats
+                });
+            }
         }
     };
 

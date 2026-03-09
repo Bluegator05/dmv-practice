@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { scenarios } from '../data/scenarios';
 import type { ScenarioChoice } from '../data/scenarios';
+import { supabase } from '../lib/supabase';
 import { Home, ShieldAlert, CheckCircle2, XCircle, ArrowRight, Gauge } from 'lucide-react';
 import './DrivingGame.css';
 
@@ -28,15 +29,27 @@ const DrivingGame: React.FC = () => {
     const [isDriving, setIsDriving] = useState(false);
 
     // Briefly animate "driving" to the next scenario
-    const handleTransitionToNext = () => {
+    const handleTransitionToNext = async () => {
         setIsDriving(true);
-        setTimeout(() => {
+        setTimeout(async () => {
             setIsDriving(false);
             if (currentIndex < randomizedScenarios.length - 1) {
                 setCurrentIndex(c => c + 1);
                 setSelectedChoice(null);
             } else {
                 setGameFinished(true);
+                const passed = score >= Math.ceil(randomizedScenarios.length * 0.7);
+                const { data: { session } } = await supabase.auth.getSession();
+                if (session) {
+                    await supabase.from('user_progress').insert({
+                        user_id: session.user.id,
+                        type: 'simulator',
+                        score: score,
+                        total: randomizedScenarios.length,
+                        passed: passed,
+                        weak_categories: []
+                    });
+                }
             }
         }, 1200); // Shorter drive transition
     };
