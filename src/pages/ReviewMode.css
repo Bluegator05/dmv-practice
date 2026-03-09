@@ -1,0 +1,174 @@
+.review-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.review-empty {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 4rem;
+    background: var(--color-surface-elevated);
+    border-radius: var(--radius-lg);
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.review-empty h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.review-empty p {
+    color: var(--color-text-muted);
+    font-size: 1.125rem;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-progress {
+    color: var(--color-text-muted);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+}
+
+.weak-areas-summary {
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--color-warning);
+}
+
+.weak-areas-summary h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    color: var(--color-text-main);
+}
+
+.category-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.category-tag {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--color-warning);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.count-badge {
+    background: var(--color-warning);
+    color: #000;
+    padding: 0.125rem 0.5rem;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.review-card {
+    padding: 2.5rem;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.category-badge.warning {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--color-warning);
+}
+
+.think-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: var(--radius-md);
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.think-prompt {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.reveal-btn {
+    font-size: 1.125rem;
+    padding: 1rem 2.5rem;
+}
+
+.animation-fade-in {
+    animation: fadeIn 0.4s ease-out;
+}
+
+.correct-answer-box {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+}
+
+.box-title {
+    color: var(--color-success);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.box-content {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 600;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
