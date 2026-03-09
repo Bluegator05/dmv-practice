@@ -62,7 +62,7 @@ const Quiz: React.FC = () => {
                     .filter(([_, count]) => count > 0)
                     .map(([cat, _]) => cat);
 
-                await supabase.from('user_progress').insert({
+                const { error } = await supabase.from('user_progress').insert({
                     user_id: session.user.id,
                     type: 'practice_test',
                     score: score,
@@ -70,6 +70,11 @@ const Quiz: React.FC = () => {
                     passed: passed,
                     weak_categories: weakCats
                 });
+
+                if (error) {
+                    console.error("Failed to save progress to Supabase:", error);
+                    alert(`Failed to save progress: ${error.message}`);
+                }
             }
         }
     };
