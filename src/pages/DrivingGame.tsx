@@ -41,7 +41,7 @@ const DrivingGame: React.FC = () => {
                 const passed = score >= Math.ceil(randomizedScenarios.length * 0.7);
                 const { data: { session } } = await supabase.auth.getSession();
                 if (session) {
-                    await supabase.from('user_progress').insert({
+                    const { error } = await supabase.from('user_progress').insert({
                         user_id: session.user.id,
                         type: 'simulator',
                         score: score,
@@ -49,6 +49,11 @@ const DrivingGame: React.FC = () => {
                         passed: passed,
                         weak_categories: []
                     });
+
+                    if (error) {
+                        console.error("Failed to save progress to Supabase:", error);
+                        alert(`Failed to save progress: ${error.message}`);
+                    }
                 }
             }
         }, 1200); // Shorter drive transition
