@@ -955,5 +955,343 @@ export const questions: Question[] = [
         correctAnswer: 0,
         explanation: 'Teens usually must be at least 15, in driver education, and present required identification and school/ residency documents.',
         category: 'Rules of the Road'
+    },
+    {
+        id: 'q83',
+        question: 'When approaching a railroad crossing with no gates or lights and you see a train coming, you must stop:',
+        options: [
+            'At least 15 feet from the tracks',
+            'Exactly on the tracks',
+            'Only if the train sounds its horn',
+            'Only if other cars are stopped'
+        ],
+        correctAnswer: 0,
+        explanation: 'Stop no closer than about 15 feet from the nearest rail to keep a safe distance from passing trains.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q84',
+        question: 'If your vehicle begins to skid on a slippery road, you should:',
+        options: [
+            'Brake hard and hold the pedal down',
+            'Steer in the direction you want the front of the vehicle to go',
+            'Steer in the opposite direction of the skid',
+            'Turn off the engine immediately'
+        ],
+        correctAnswer: 1,
+        explanation: 'Ease off the accelerator and steer in the direction you want to go, gently correcting the skid.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q85',
+        question: 'To reduce the risk of hydroplaning, you should:',
+        options: [
+            'Increase your speed',
+            'Drive on worn tires',
+            'Slow down and avoid standing water',
+            'Use cruise control in heavy rain'
+        ],
+        correctAnswer: 2,
+        explanation: 'Slow down, especially in heavy rain or standing water, and make sure your tires are in good condition.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q86',
+        question: 'When driving at night, you should dim your high-beam headlights when you are within about:',
+        options: [
+            '50 feet of another vehicle',
+            '100 feet of another vehicle',
+            '300 feet when following and 500 feet when approaching oncoming traffic',
+            'Only in city traffic'
+        ],
+        correctAnswer: 2,
+        explanation: 'Dim high beams when following within several hundred feet or when oncoming traffic is approaching to avoid blinding other drivers.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q87',
+        question: 'If an oncoming vehicle’s bright headlights are blinding you at night, you should:',
+        options: [
+            'Look directly at the lights',
+            'Flash your high beams constantly',
+            'Look toward the right edge of your lane and keep driving safely',
+            'Close your eyes briefly'
+        ],
+        correctAnswer: 2,
+        explanation: 'Glance toward the right edge of the road to avoid glare while still monitoring your lane position.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q88',
+        question: 'When backing up your vehicle, you should:',
+        options: [
+            'Rely only on your mirrors',
+            'Turn your body and look through the rear window while backing slowly',
+            'Back quickly to clear the area',
+            'Only use the backup camera'
+        ],
+        correctAnswer: 1,
+        explanation: 'Turn and look directly out the rear window, backing slowly while using mirrors as a supplement.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q89',
+        question: 'If your vehicle’s right wheels run off the pavement onto the shoulder, you should:',
+        options: [
+            'Steer sharply back onto the road',
+            'Brake hard and hold the brake',
+            'Ease off the accelerator, steer straight, and gently return to the pavement when safe',
+            'Immediately turn left across traffic'
+        ],
+        correctAnswer: 2,
+        explanation: 'Regain control by slowing gradually and gently steering back onto the road when there is a clear gap.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q90',
+        question: 'The safest way to re-enter traffic from the shoulder is to:',
+        options: [
+            'Accelerate on the shoulder and then jerk the wheel into traffic',
+            'Come to a complete stop, then turn sharply',
+            'Signal, check mirrors and blind spots, and merge when there is enough space',
+            'Wait for other drivers to stop for you'
+        ],
+        correctAnswer: 2,
+        explanation: 'Use your signal, check for gaps, and merge smoothly when traffic permits.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q91',
+        question: 'When is it legal to drive on the left side of the roadway?',
+        options: [
+            'When passing another vehicle on a two-lane, two-way road where passing is permitted',
+            'Anytime traffic is light',
+            'Whenever you are in a hurry',
+            'On curves'
+        ],
+        correctAnswer: 0,
+        explanation: 'You may drive on the left only when passing on a two-way road with no signs or markings prohibiting passing and clear visibility.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q92',
+        question: 'Driving too slowly can be:',
+        options: [
+            'Always safe',
+            'As dangerous as driving too fast',
+            'Only dangerous on highways',
+            'Never a problem'
+        ],
+        correctAnswer: 1,
+        explanation: 'Going much slower than traffic can create conflicts and rear-end collisions, especially on higher-speed roads.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q93',
+        question: 'You must not park:',
+        options: [
+            'On a hill',
+            'Within or blocking a driveway or in front of a public or private driveway',
+            'More than one foot from the curb',
+            'In a parking lot'
+        ],
+        correctAnswer: 1,
+        explanation: 'Blocking driveways is prohibited; vehicles must not obstruct entry or exit.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q94',
+        question: 'Parking is not allowed:',
+        options: [
+            'Within an intersection',
+            'At a rest area',
+            'In your own driveway',
+            'In front of your home with hazard lights on'
+        ],
+        correctAnswer: 0,
+        explanation: 'Parking within an intersection is illegal and unsafe.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q95',
+        question: 'If you are involved in a minor crash with no injuries, you should:',
+        options: [
+            'Leave the vehicles in the lane and argue',
+            'Immediately leave the scene',
+            'Move vehicles out of the traffic lane if possible and exchange information',
+            'Refuse to show insurance'
+        ],
+        correctAnswer: 2,
+        explanation: 'If safe and drivable, move vehicles off the roadway and exchange names, addresses, and insurance information.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q96',
+        question: 'If you hit an unattended vehicle and cannot find the owner, you must:',
+        options: [
+            'Leave without doing anything',
+            'Leave a note with your name and information in a secure, visible place and report the crash if required',
+            'Wait for an hour only',
+            'Call a tow truck and leave'
+        ],
+        correctAnswer: 1,
+        explanation: 'You must leave your identifying information and follow reporting requirements.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q97',
+        question: 'It is illegal to park:',
+        options: [
+            'Within a crosswalk or on a sidewalk',
+            'In a legal parking space at the mall',
+            'Facing traffic',
+            'More than 10 minutes'
+        ],
+        correctAnswer: 0,
+        explanation: 'Parking on sidewalks or within crosswalks obstructs pedestrians and is not allowed.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q98',
+        question: 'Children are safest:',
+        options: [
+            'In the front seat with the airbag on',
+            'Properly secured in the back seat using appropriate child restraints',
+            'Sitting on an adult’s lap',
+            'With only the lap belt'
+        ],
+        correctAnswer: 1,
+        explanation: 'Child safety seats and boosters properly installed in the back seat offer the best protection.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q99',
+        question: 'When merging onto a freeway, who has the right-of-way?',
+        options: [
+            'Vehicles already on the freeway',
+            'Vehicles on the entrance ramp',
+            'The slower vehicle',
+            'Whoever uses their horn first'
+        ],
+        correctAnswer: 0,
+        explanation: 'Traffic already on the freeway has the right-of-way; merging drivers must adjust and enter when there is a safe gap.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q100',
+        question: 'When exiting a freeway, you should:',
+        options: [
+            'Slow down on the main lanes before the exit ramp',
+            'Move into the correct exit lane well in advance and slow only after entering the exit ramp',
+            'Stop on the main lanes to look for your exit',
+            'Cross several lanes at once at the last moment'
+        ],
+        correctAnswer: 1,
+        explanation: 'Plan ahead, be in the correct lane early, and reduce speed on the deceleration lane or ramp.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q101',
+        question: 'A "Do Not Enter" sign indicates:',
+        options: [
+            'You may proceed slowly',
+            'You are about to enter a lane or roadway where traffic is coming toward you',
+            'You must yield',
+            'Only trucks are prohibited'
+        ],
+        correctAnswer: 1,
+        explanation: 'This sign warns of wrong-way entry; you must not proceed past it.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q102',
+        question: 'A red and white "Wrong Way" sign means:',
+        options: [
+            'Turn right only',
+            'You are driving against traffic and must turn around immediately when safe',
+            'You may back up slowly',
+            'Parking is allowed'
+        ],
+        correctAnswer: 1,
+        explanation: '"Wrong Way" means you are going in the wrong direction on that roadway.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q103',
+        question: 'A yellow, diamond-shaped sign showing a curvy arrow means:',
+        options: [
+            'Winding road ahead',
+            'One sharp curve only',
+            'Slippery when wet',
+            'No passing'
+        ],
+        correctAnswer: 0,
+        explanation: 'The wavy arrow warns drivers of a series of curves ahead.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q104',
+        question: 'A rectangular white sign with black letters generally indicates:',
+        options: [
+            'A warning',
+            'A guide',
+            'A regulatory rule or law',
+            'A construction zone'
+        ],
+        correctAnswer: 2,
+        explanation: 'White rectangular signs usually state laws or regulations (speed limits, lane use, etc.).',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q105',
+        question: 'When you see an orange sign with black letters or symbols, it usually means:',
+        options: [
+            'Recreational area',
+            'Construction or maintenance area ahead',
+            'School zone',
+            'Hospital area'
+        ],
+        correctAnswer: 1,
+        explanation: 'Orange signs are used for temporary work zones and construction warnings.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q106',
+        question: 'A yellow sign with a walking person symbol indicates:',
+        options: [
+            'School bus stop only',
+            'Pedestrian crossing area ahead',
+            'No pedestrians allowed',
+            'Playground equipment'
+        ],
+        correctAnswer: 1,
+        explanation: 'This sign warns of areas where pedestrians frequently cross.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q107',
+        question: 'When must you use your headlights?',
+        options: [
+            'Only at night',
+            'From just before sunset to just after sunrise, and any time visibility is poor',
+            'Only in rain',
+            'Only on highways'
+        ],
+        correctAnswer: 1,
+        explanation: 'Headlights are required at night and when visibility is reduced (like fog, heavy rain, or dust).',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q108',
+        question: 'Using your horn is appropriate:',
+        options: [
+            'To greet a friend',
+            'To show frustration',
+            'To warn other road users of danger',
+            'To encourage other drivers to move faster'
+        ],
+        correctAnswer: 2,
+        explanation: 'Use the horn only to alert others to possible collisions or unsafe situations.',
+        category: 'Safe Driving Practices'
     }
 ];
