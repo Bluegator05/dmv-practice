@@ -1293,5 +1293,317 @@ export const questions: Question[] = [
         correctAnswer: 2,
         explanation: 'Use the horn only to alert others to possible collisions or unsafe situations.',
         category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q109',
+        question: 'Before starting your car, you should:',
+        options: [
+            'Turn on the radio',
+            'Adjust your seat, steering wheel, mirrors, and fasten your seat belt',
+            'Rev the engine',
+            'Turn off all lights'
+        ],
+        correctAnswer: 1,
+        explanation: 'Proper adjustments and seat belt use improve control and safety before driving.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q110',
+        question: 'You are turning right from a two-way street onto another two-way street. You should turn into:',
+        options: [
+            'Any lane available',
+            'The left lane of the new street',
+            'The right lane of the new street',
+            'The center lane'
+        ],
+        correctAnswer: 2,
+        explanation: 'Turn into the nearest appropriate lane, which is the right lane on a two-way street.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q111',
+        question: 'When making a left turn from a two-way street onto a one-way street, you should:',
+        options: [
+            'Turn into the right lane of the one-way street',
+            'Turn into any lane without signaling',
+            'Turn into the left lane of the one-way street, staying close to the left curb',
+            'Turn into the far right lane only'
+        ],
+        correctAnswer: 2,
+        explanation: 'Enter the nearest lane on your side of the one-way street, which is usually the left lane.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q112',
+        question: 'To make a safe left turn, you should:',
+        options: [
+            'Start your turn wide from the right lane',
+            'Signal, move into the left lane well ahead, yield to oncoming traffic, and turn smoothly',
+            'Turn from any lane',
+            'Speed up into the turn'
+        ],
+        correctAnswer: 1,
+        explanation: 'Prepare early, be in the correct lane, and yield to oncoming vehicles and pedestrians.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q113',
+        question: 'When parallel parking, the space you choose should:',
+        options: [
+            'Be about half the length of your vehicle',
+            'Be at least one and a half times the length of your vehicle',
+            'Be exactly the same length as your car',
+            'Be on a hill only'
+        ],
+        correctAnswer: 1,
+        explanation: 'A space around one and a half times your vehicle length allows enough room to maneuver.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q114',
+        question: 'After successfully parking on a hill, you should always:',
+        options: [
+            'Leave the car in neutral without the brake',
+            'Set the parking brake and place the transmission in park (or low gear for manual)',
+            'Turn off your lights only',
+            'Leave the engine running'
+        ],
+        correctAnswer: 1,
+        explanation: 'Parking brake and proper gear selection prevent unintended vehicle movement.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q115',
+        question: 'If you encounter an aggressive driver (road rage), you should:',
+        options: [
+            'Make eye contact and gesture back',
+            'Race them',
+            'Avoid eye contact, don\'t respond, and create distance by changing lanes or exiting when safe',
+            'Stop in the lane to confront them'
+        ],
+        correctAnswer: 2,
+        explanation: 'Staying calm and avoiding escalation protects you and others.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q116',
+        question: 'You must yield to any pedestrian:',
+        options: [
+            'Only if they are using a crosswalk signal',
+            'Even if they are crossing illegally, when it is necessary to avoid hitting them',
+            'Only in marked crosswalks',
+            'Only when they are children'
+        ],
+        correctAnswer: 1,
+        explanation: 'Drivers must do everything possible to avoid a collision, even if a pedestrian is not crossing properly.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q117',
+        question: 'When passing a bicyclist, you should:',
+        options: [
+            'Pass very closely to scare them',
+            'Honk loudly and pass at normal distance',
+            'Provide a safe clearance and move to another lane if possible',
+            'Never pass'
+        ],
+        correctAnswer: 2,
+        explanation: 'Give cyclists plenty of room, changing lanes if necessary, and pass at a safe speed.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q118',
+        question: 'When driving near a large truck, you should:',
+        options: [
+            'Drive alongside the truck’s side for long periods',
+            'Stay out of its blind spots and avoid cutting in front',
+            'Follow closely behind it',
+            'Assume the driver sees you everywhere'
+        ],
+        correctAnswer: 1,
+        explanation: 'Trucks have larger blind spots; give them extra space and avoid driving where the driver may not see you.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q119',
+        question: 'A truck making a wide right turn:',
+        options: [
+            'Will always stay close to the curb',
+            'May first move to the left lane to complete the turn; never attempt to squeeze between the truck and curb',
+            'Is illegal',
+            'Must stop and wait for cars'
+        ],
+        correctAnswer: 1,
+        explanation: 'Trucks sometimes swing wide, and cars must not pass on the right inside that turning space.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q120',
+        question: 'A "No U-Turn" sign means:',
+        options: [
+            'U-turns are allowed only at night',
+            'You may make a three-point turn',
+            'You must not turn around to go in the opposite direction at that location',
+            'Only trucks cannot turn'
+        ],
+        correctAnswer: 2,
+        explanation: 'The sign prohibits reversing direction via a U-turn at that spot.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q121',
+        question: 'If your brakes fail while driving, you should:',
+        options: [
+            'Turn off the engine immediately',
+            'Pump the brake pedal, downshift to lower gears, and use the parking brake gradually while steering to a safe area',
+            'Shift to neutral and coast',
+            'Jump out of the vehicle'
+        ],
+        correctAnswer: 1,
+        explanation: 'Try to restore braking, use engine braking, and apply the parking brake slowly to avoid locking wheels.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q122',
+        question: 'If your accelerator sticks, you should:',
+        options: [
+            'Turn the key to lock the steering wheel',
+            'Keep driving until the next exit',
+            'Shift to neutral, apply brakes, and move to the side of the road',
+            'Turn off the car and hold the wheel loosely'
+        ],
+        correctAnswer: 2,
+        explanation: 'Putting the vehicle in neutral and braking lets you safely slow and stop, then address the problem.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q123',
+        question: 'Littering from a vehicle (throwing trash out of the window) can result in:',
+        options: [
+            'No penalties',
+            'Fines and possibly community service',
+            'A warning only',
+            'A parking ticket only'
+        ],
+        correctAnswer: 1,
+        explanation: 'Littering is against the law and can lead to fines and other penalties.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q124',
+        question: 'A driver’s license can be suspended for:',
+        options: [
+            'Always using turn signals',
+            'Repeated traffic violations, driving while intoxicated, or serious crashes',
+            'Driving below the speed limit',
+            'Minor parking tickets'
+        ],
+        correctAnswer: 1,
+        explanation: 'Serious offenses and repeated violations can lead to suspension.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q125',
+        question: 'Defensive driving means:',
+        options: [
+            'Driving very fast',
+            'Expecting other drivers to always follow the rules',
+            'Being aware, anticipating problems, and adjusting to avoid crashes',
+            'Driving only on familiar roads'
+        ],
+        correctAnswer: 2,
+        explanation: 'Defensive drivers scan ahead, watch other road users, and prepare to react safely.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q126',
+        question: 'When you are tired or drowsy, you should:',
+        options: [
+            'Roll down the windows; that’s enough',
+            'Drink energy drinks and keep going no matter what',
+            'Stop driving, rest, or change drivers',
+            'Turn up the radio and drive faster'
+        ],
+        correctAnswer: 2,
+        explanation: 'Drowsy driving is dangerous; the only real solution is rest or having another licensed driver take over.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q127',
+        question: 'If you use windshield wipers because of rain, it is also a good idea to:',
+        options: [
+            'Turn off your headlights',
+            'Turn on your headlights so others can see you',
+            'Drive without signals',
+            'Speed up'
+        ],
+        correctAnswer: 1,
+        explanation: 'Headlights make you more visible in rain, which improves safety.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q128',
+        question: 'When can you turn left on red in Texas?',
+        options: [
+            'From a one-way street onto another one-way street, after stopping and yielding if no sign prohibits it',
+            'Never',
+            'Anytime traffic is light',
+            'Only at night'
+        ],
+        correctAnswer: 0,
+        explanation: 'Left on red is sometimes allowed from one one-way street to another after a full stop and yielding.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q129',
+        question: 'If you see a "Slippery When Wet" sign, you should:',
+        options: [
+            'Speed up to get past the area',
+            'Slow down, avoid sudden maneuvers, and be prepared for reduced traction',
+            'Turn off traction control',
+            'Brake hard in the area'
+        ],
+        correctAnswer: 1,
+        explanation: 'Drive cautiously, avoiding sharp turns or sudden braking on slippery surfaces.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q130',
+        question: 'A broken yellow line on your side of the center line with a solid yellow line on the other side means:',
+        options: [
+            'Both directions may pass',
+            'Only the traffic on your side may pass when clear',
+            'No one may pass',
+            'Only the other side may pass'
+        ],
+        correctAnswer: 1,
+        explanation: 'The side with the broken line may pass when it is safe; the side with the solid line may not.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q131',
+        question: 'When changing lanes on a multi-lane roadway, the last thing you should do before moving into the new lane is:',
+        options: [
+            'Check your mirrors',
+            'Turn on your signal',
+            'Check your blind spot over your shoulder',
+            'Slow to a stop'
+        ],
+        correctAnswer: 2,
+        explanation: 'A final shoulder check for blind spots helps prevent collisions with vehicles not visible in mirrors.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q132',
+        question: 'You may not drive in a bike lane:',
+        options: [
+            'To make a right turn after checking for bicyclists',
+            'During the hours posted on signs that restrict motor vehicles, except when turning or entering a driveway',
+            'To pass other cars at high speed',
+            'To park anytime'
+        ],
+        correctAnswer: 2,
+        explanation: 'Bike lanes are primarily for bicycles; using them to speed past traffic is dangerous and illegal.',
+        category: 'Rules of the Road'
     }
 ];
