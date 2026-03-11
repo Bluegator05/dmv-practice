@@ -604,5 +604,356 @@ export const questions: Question[] = [
         correctAnswer: 2,
         explanation: 'Drivers should maintain a minimum passing distance of at least 3 feet when passing a bicyclist.',
         category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q56',
+        question: 'When approaching a four-way stop, two vehicles arrive at the same time at perpendicular streets. You are on the left; the other driver is on your right. Who has the right-of-way?',
+        options: [
+            'You do, because you arrived first',
+            'You do, because you are on the main road',
+            'The driver on your right',
+            'Whoever is turning left'
+        ],
+        correctAnswer: 2,
+        explanation: 'When drivers arrive at the same time, the driver on the right has the right-of-way.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q57',
+        question: 'When must you yield to pedestrians?',
+        options: [
+            'Only at marked crosswalks',
+            'Only when traffic signals show WALK',
+            'At crosswalks and intersections, whether marked or unmarked',
+            'Only in school zones'
+        ],
+        correctAnswer: 2,
+        explanation: 'Drivers must yield to pedestrians in both marked and unmarked crosswalks at intersections.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q58',
+        question: 'When turning right on a red light in Texas, you must:',
+        options: [
+            'Slow down and turn if traffic is clear',
+            'Stop, yield to traffic and pedestrians, and turn if no sign prohibits it',
+            'Stop only if pedestrians are present',
+            'Turn right only when the light turns green'
+        ],
+        correctAnswer: 1,
+        explanation: 'Right turn on red is allowed after a complete stop and yielding, unless a sign says "No Turn on Red."',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q59',
+        question: 'When entering a freeway from an entrance ramp, you should:',
+        options: [
+            'Stop at the end of the ramp and wait for a gap',
+            'Drive slowly on the shoulder until you can merge',
+            'Use the acceleration lane to match the speed of traffic and merge safely',
+            'Signal and force traffic to let you in'
+        ],
+        correctAnswer: 2,
+        explanation: 'Use the acceleration lane to adjust your speed to the flow of freeway traffic before merging.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q60',
+        question: 'You are driving in the left lane and a faster vehicle is approaching from behind. You should:',
+        options: [
+            'Maintain your speed; they must slow down',
+            'Speed up',
+            'Move to the right lane when safe',
+            'Apply your brakes to discourage tailgating'
+        ],
+        correctAnswer: 2,
+        explanation: 'The left lane is generally for passing; move right when safe to let faster traffic pass.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q61',
+        question: 'On a two-lane road, you may legally pass another vehicle on the right:',
+        options: [
+            'When the other vehicle is making or about to make a left turn',
+            'Anytime traffic is slow',
+            'On the shoulder',
+            'In a no-passing zone'
+        ],
+        correctAnswer: 0,
+        explanation: 'You may pass on the right only when the other vehicle is turning left and there is enough space on the roadway (not the shoulder).',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q62',
+        question: 'If you miss your exit on the freeway, you should:',
+        options: [
+            'Back up carefully to the exit',
+            'Make a U-turn in the median',
+            'Go to the next exit and re-enter the freeway',
+            'Stop and ask for directions on the shoulder'
+        ],
+        correctAnswer: 2,
+        explanation: 'Never back up or make a U-turn on a freeway; continue to the next exit.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q63',
+        question: 'When driving in heavy rain, you should:',
+        options: [
+            'Turn on high-beam headlights',
+            'Use low-beam headlights and reduce speed',
+            'Use only parking lights',
+            'Turn off headlights to reduce glare'
+        ],
+        correctAnswer: 1,
+        explanation: 'Use low-beam headlights and slow down to improve visibility and traction.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q64',
+        question: 'Unless otherwise posted, the speed limit on most Texas highways outside urban districts is:',
+        options: [
+            '45 mph',
+            '55 mph',
+            '60 mph',
+            '70 mph'
+        ],
+        correctAnswer: 3,
+        explanation: 'Rural state highways generally have a higher default speed limit, often around 70 mph when not otherwise posted.',
+        category: 'Speed Limits & Distances'
+    },
+    {
+        id: 'q65',
+        question: 'When driving behind another vehicle, a safe following distance is:',
+        options: [
+            'One second',
+            'Two to three seconds',
+            'Four car lengths',
+            'Half a second'
+        ],
+        correctAnswer: 1,
+        explanation: 'A two- to three-second gap under good conditions is recommended to allow time to react and stop.',
+        category: 'Speed Limits & Distances'
+    },
+    {
+        id: 'q66',
+        question: 'You are in a school zone with flashing lights but see no children present. The proper action is to:',
+        options: [
+            'Drive the regular road speed',
+            'Drive the posted school-zone speed limit',
+            'Stop and wait until the lights stop',
+            'Honk to warn any children nearby'
+        ],
+        correctAnswer: 1,
+        explanation: 'When school zone signals are flashing, you must obey the lower school-zone speed limit.',
+        category: 'Speed Limits & Distances'
+    },
+    {
+        id: 'q67',
+        question: 'A triangular red and white sign pointing downward at an intersection means:',
+        options: [
+            'Stop',
+            'Yield',
+            'Do not enter',
+            'Wrong way'
+        ],
+        correctAnswer: 1,
+        explanation: 'An inverted triangle sign indicates you must yield to cross traffic and pedestrians.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q68',
+        question: 'Broken white lines on the roadway mean:',
+        options: [
+            'Traffic moves in opposite directions',
+            'Traffic moves in the same direction and you may change lanes when safe',
+            'Passing is prohibited',
+            'You must stop at the line'
+        ],
+        correctAnswer: 1,
+        explanation: 'Broken white lines separate lanes of traffic moving the same way; lane changes are allowed with caution.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q69',
+        question: 'A solid white line at the edge of the roadway indicates:',
+        options: [
+            'The center of a two-way road',
+            'A lane you may not enter',
+            'The right edge of the roadway, also called the fog line',
+            'A bus-only lane'
+        ],
+        correctAnswer: 2,
+        explanation: 'A solid white edge line marks the outer edge of the roadway, helping you stay in your lane.',
+        category: 'Signs, Signals & Markings'
+    },
+    {
+        id: 'q70',
+        question: 'On a multi-lane highway, the left lane is generally used for:',
+        options: [
+            'Slow-moving vehicles only',
+            'Passing or faster traffic',
+            'Parking',
+            'Trucks only'
+        ],
+        correctAnswer: 1,
+        explanation: 'The left lane is typically the passing lane or for faster-moving vehicles.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q71',
+        question: 'Before changing lanes, you must:',
+        options: [
+            'Check mirrors, signal, check blind spot, then move when safe',
+            'Signal and immediately move',
+            'Honk your horn and move',
+            'Slow to a stop and then move'
+        ],
+        correctAnswer: 0,
+        explanation: 'Safe lane changes require mirror checks, signaling, checking blind spots, and moving only when clear.',
+        category: 'Safe Driving Practices'
+    },
+    {
+        id: 'q72',
+        question: 'You are turning left at a green light. An oncoming vehicle is going straight. You should:',
+        options: [
+            'Turn quickly before the oncoming vehicle',
+            'Turn only if the other driver slows',
+            'Yield to the oncoming vehicle and turn when clear',
+            'Honk and turn'
+        ],
+        correctAnswer: 2,
+        explanation: 'Vehicles going straight through an intersection at a green light have right-of-way over left-turning traffic.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q73',
+        question: 'You are at a T-intersection where your road ends and meets a through road. Who must yield?',
+        options: [
+            'The drivers on the through road',
+            'The driver on the dead-end (terminating) road',
+            'The vehicle on the left',
+            'Whoever arrived last'
+        ],
+        correctAnswer: 1,
+        explanation: 'At a T-intersection, the driver on the road that ends must yield to traffic on the through road.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q74',
+        question: 'When an emergency vehicle with flashing lights and siren is approaching from behind, you must:',
+        options: [
+            'Maintain your speed',
+            'Pull to the right and stop as soon as safe',
+            'Speed up to get out of the way',
+            'Stop in your lane immediately'
+        ],
+        correctAnswer: 1,
+        explanation: 'You must pull over to the right edge of the road and stop until the emergency vehicle passes.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q75',
+        question: 'Taking a prescription drug before driving:',
+        options: [
+            'Is always safe',
+            'Is safe if you don’t feel drowsy',
+            'Can be unsafe; many medicines affect your driving and may warn against operating vehicles',
+            'Is safer than alcohol'
+        ],
+        correctAnswer: 2,
+        explanation: 'Many prescriptions and over-the-counter drugs can impair driving; always read and follow label warnings.',
+        category: 'Alcohol & Drugs'
+    },
+    {
+        id: 'q76',
+        question: 'The best way to avoid driving under the influence is:',
+        options: [
+            'Eat a large meal before drinking',
+            'Drink coffee before driving',
+            'Plan ahead for a designated driver, rideshare, or not drinking if you must drive',
+            'Drive slowly'
+        ],
+        correctAnswer: 2,
+        explanation: 'Only time lowers BAC; planning ahead to avoid driving after drinking is the safe choice.',
+        category: 'Alcohol & Drugs'
+    },
+    {
+        id: 'q77',
+        question: 'You must wear a safety belt:',
+        options: [
+            'Only on highways',
+            'Only if you are under 18',
+            'In the front seats; many passengers are also required by law to be belted',
+            'Only during bad weather'
+        ],
+        correctAnswer: 2,
+        explanation: 'Texas law requires most drivers and passengers to use seat belts, especially in the front seat, and often in the back seat as well.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q78',
+        question: 'A Texas learner license (instruction permit) for a teen typically allows driving:',
+        options: [
+            'Alone at any time',
+            'Only with a licensed adult of at least 21 years old in the front seat',
+            'Only to and from school',
+            'Only during daylight'
+        ],
+        correctAnswer: 1,
+        explanation: 'With a learner license, a teen must be accompanied in the front seat by a licensed adult aged 21 or older.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q79',
+        question: 'During the first months of holding a provisional license as a teen, Texas GDL laws restrict:',
+        options: [
+            'Nighttime driving and the number of young passengers',
+            'Highway driving only',
+            'All driving after 5 p.m.',
+            'Use of seat belts'
+        ],
+        correctAnswer: 0,
+        explanation: 'Provisional licenses often limit late-night driving and passengers under a certain age, except family members.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q80',
+        question: 'Using a wireless communication device (like a phone) while driving as a novice/teen driver:',
+        options: [
+            'Is allowed for texting at red lights',
+            'Is allowed if using one hand',
+            'Is generally prohibited, especially for texting and handheld use',
+            'Is encouraged for navigation'
+        ],
+        correctAnswer: 2,
+        explanation: 'Texas law restricts cell phone use for young drivers, particularly texting and handheld use while driving.',
+        category: 'Rules of the Road'
+    },
+    {
+        id: 'q81',
+        question: 'A conviction for driving under the influence as a minor can result in:',
+        options: [
+            'Only a warning',
+            'License suspension, fines, community service, and alcohol education requirements',
+            'Only a small fine',
+            'No penalties until age 21'
+        ],
+        correctAnswer: 1,
+        explanation: 'Even minors can face serious consequences including suspension, fines, and education requirements.',
+        category: 'Alcohol & Drugs'
+    },
+    {
+        id: 'q82',
+        question: 'To obtain a learner license as a teen in Texas, you must generally:',
+        options: [
+            'Be at least 15, enrolled in or have completed an approved driver education course, and meet documentation requirements',
+            'Be 13 with parental permission',
+            'Already own a car',
+            'Pass the driving (road) test first'
+        ],
+        correctAnswer: 0,
+        explanation: 'Teens usually must be at least 15, in driver education, and present required identification and school/ residency documents.',
+        category: 'Rules of the Road'
     }
 ];
